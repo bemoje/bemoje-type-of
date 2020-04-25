@@ -431,7 +431,6 @@ const repo = new (class {
 		)
 		data.print()
 		data = await this.gitCommit()
-		data.print()
 	}
 
 	keywords() {
