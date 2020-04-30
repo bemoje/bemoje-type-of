@@ -1,7 +1,7 @@
 {
    "name": "@bemoje/type-of",
-   "version": "1.0.2",
-   "description": "Returns a string corresponding to the name of the constructor of the passed value, 'v'.",
+   "version": "1.0.3",
+   "description": "Returns a string representing a value's constructor's name property, except for 'NaN', infinite values, 'Infinity', 'Null' and 'Undefined'.",
    "main": "dist/type-of.umd.js",
    "module": "dist/type-of.esm.js",
    "browser": "dist/type-of.umd.js",
@@ -67,9 +67,16 @@
    "keywords": [
       "returns",
       "string",
-      "constructor",
-      "passed",
-      "v'",
+      "representing",
+      "value's",
+      "constructor's",
+      "property",
+      "nan'",
+      "infinite",
+      "values",
+      "infinity'",
+      "null",
+      "undefined'",
       "typeof",
       "evaluate"
    ]

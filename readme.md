@@ -1,6 +1,6 @@
 # @bemoje/type-of
 
-Returns a string corresponding to the name of the constructor of the passed value, 'v'.
+Returns a string representing a value's constructor's name property, except for 'NaN', infinite values, 'Infinity', 'Null' and 'Undefined'.
 
 #### Version
 
@@ -98,7 +98,7 @@ npm run test
 ### typeOf
 
 ##### Returns
-a string corresponding to the name of the constructor of the passed value, 'v'.
+a string representing a value's constructor's name property, except for 'NaN', infinite values, 'Infinity', 'Null' and 'Undefined'.
 
 ##### Parameters
 
