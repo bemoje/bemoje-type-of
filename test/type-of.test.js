@@ -16,5 +16,7 @@ describe('typeOf', () => {
 		expect(typeOf([])).toBe('Array')
 		class Custom {}
 		expect(typeOf(new Custom())).toBe('Custom')
+		expect(typeOf(null)).toBe('Null')
+		expect(typeOf(undefined)).toBe('Undefined')
 	})
 })

@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/type-of",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "description": "Returns a string corresponding to the name of the constructor of the passed value, 'v'.",
    "main": "dist/type-of.umd.js",
    "module": "dist/type-of.esm.js",

@@ -61,6 +61,9 @@ typeOf(1)
 typeOf(Number(1))
 //=> 'Number'
 
+typeOf(new Number(1))
+//=> 'Number'
+
 typeOf(new Object())
 //=> 'Object'
 
@@ -74,6 +77,12 @@ class Custom {}
 
 typeOf(new Custom())
 //=> 'Custom'
+
+typeOf(undefined)
+//=> 'Undefined'
+
+typeOf(null)
+//=> 'Null'
 
 ```
 
@@ -96,7 +105,7 @@ a string corresponding to the name of the constructor of the passed value, 'v'.
 -   `value` **any** The value to evaluate
 
 ##### Returns
-**[string][3]** string
+**[string][3]** 
 
 [1]: #typeof
 

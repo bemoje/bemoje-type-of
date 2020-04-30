@@ -13,7 +13,7 @@ Returns a string corresponding to the name of the constructor of the passed valu
 
 -   `value` **any** The value to evaluate
 
-Returns **[string][3]** string
+Returns **[string][3]** 
 
 [1]: #typeof
 

@@ -40,3 +40,9 @@ class Custom {}
 
 typeOf(new Custom())
 //=> 'Custom'
+
+typeOf(undefined)
+//=> 'Undefined'
+
+typeOf(null)
+//=> 'Null'
