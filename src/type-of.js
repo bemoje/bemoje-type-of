@@ -1,3 +1,5 @@
+import isNumber from '@bemoje/is-number'
+
 /**
  * Returns a string corresponding to the name of the constructor of the passed value, 'v'.
  * @method typeOf
@@ -15,11 +17,15 @@ export default function typeOf(value) {
 		}
 	}
 
-	const name = Object.prototype.toString.call(value).slice(8, -1)
+	if (isNumber(value)) {
+		return 'Number'
+	}
 
-	if (name === 'Object') {
+	const type = Object.prototype.toString.call(value).slice(8, -1)
+
+	if (type === 'Object') {
 		return value.constructor.name
 	}
 
-	return name
+	return type
 }

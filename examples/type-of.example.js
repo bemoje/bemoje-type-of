@@ -24,6 +24,9 @@ typeOf(1)
 typeOf(Number(1))
 //=> 'Number'
 
+typeOf(new Number(1))
+//=> 'Number'
+
 typeOf(new Object())
 //=> 'Object'
 

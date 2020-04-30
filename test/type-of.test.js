@@ -2,6 +2,7 @@ import typeOf from '../src/type-of'
 
 describe('typeOf', () => {
 	test('works', () => {
+		expect(typeOf(new Number(3))).toBe('Number')
 		expect(typeOf(NaN)).toBe('NaN')
 		expect(typeOf(Infinity)).toBe('Infinity')
 		expect(typeOf(Number.POSITIVE_INFINITY)).toBe('Infinity')
